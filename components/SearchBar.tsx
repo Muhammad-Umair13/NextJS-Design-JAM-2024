@@ -1,7 +1,7 @@
 "use client"
 // components/SearchBar.tsx
 import { useState } from "react";
-import { CiSearch } from "react-icons/ci";
+// import { CiSearch } from "react-icons/ci";
 
 interface SearchBarProps {
   onSearch: (query: string) => void;
