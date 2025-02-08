@@ -2,7 +2,7 @@
 "use client";
 import React from "react";
 import Image from "next/image";
-import { FaStar } from "react-icons/fa";
+// import { FaStar } from "react-icons/fa";
 import Link from "next/link";
 import { useCart } from "@/app/cart-product/CartContext";
 

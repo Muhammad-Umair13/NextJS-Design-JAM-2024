@@ -2,7 +2,6 @@
 import { useState, useEffect } from "react";
 import { client } from "@/sanity/lib/client";
 import Image from "next/image";
-import Link from "next/link";
 import { IoMdHeart } from "react-icons/io";
 import { FaGasPump } from "react-icons/fa6";
 import { MdPeopleAlt } from "react-icons/md";
