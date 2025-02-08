@@ -6,7 +6,6 @@ This is a Car Rental website built with **Next.js** and styled with **Tailwind C
 
 - **Best UI**: Beautifully designed user interface using **Tailwind CSS** for responsive and mobile-friendly layouts.
 - **Add/Remove Products**: Users can add rental cars to their cart and remove them as needed.
-- **Product Filtering**: Users can filter rental cars based on different attributes (e.g., car type, price, etc.).
+- **Product Filtering**: Users can filter rental cars based on different attributes (e.g., car type, etc.).
 - **Dynamic Product Details**: Each rental car has a detailed page accessible via dynamic routes to show more information about the car.
-- **Payout and Checkout**: Users can see the final price and proceed to checkout for their selected rental cars.
 - **Real-time Data Updates**: User can Update and See Real-time data...
