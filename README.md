@@ -1,16 +1,12 @@
-# Car-Rent Website
+# Car Rental Website
 
-A responsive car rental website built with Next.js, featuring category and detail pages
+This is a Car Rental website built with **Next.js** and styled with **Tailwind CSS**. The website features a clean, user-friendly interface and functional features like adding/removing products from the cart, filtering products, and viewing product details via dynamic routes.
 
-## Overview of Website
+## Features
 
-When I open this website Firstly I see the Homepage with better styling and responsiveness.
-
-For moving on Category Section Click on **Show more car** Button.  
- **)The Category page is Fully Responsive and Attractive Design*
-
-For moving on next section Click on **Any First 3 cart**.  
- **)The name of this section is (Detail) section*  
- **)This section is responsive and a good looking*
-
-This design are attractive and a UI Design.
+- **Best UI**: Beautifully designed user interface using **Tailwind CSS** for responsive and mobile-friendly layouts.
+- **Add/Remove Products**: Users can add rental cars to their cart and remove them as needed.
+- **Product Filtering**: Users can filter rental cars based on different attributes (e.g., car type, price, etc.).
+- **Dynamic Product Details**: Each rental car has a detailed page accessible via dynamic routes to show more information about the car.
+- **Payout and Checkout**: Users can see the final price and proceed to checkout for their selected rental cars.
+- **Real-time Data Updates**: User can Update and See Real-time data...
