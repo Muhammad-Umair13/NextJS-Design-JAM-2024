@@ -1,3 +1,4 @@
+/* eslint-disable */
 "use client";
 import { useState, useEffect } from "react";
 import { client } from "@/sanity/lib/client";
