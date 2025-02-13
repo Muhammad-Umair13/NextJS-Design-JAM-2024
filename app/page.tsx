@@ -8,7 +8,7 @@ import { FaGasPump } from "react-icons/fa6";
 import { MdPeopleAlt } from "react-icons/md";
 import { SiTraccar } from "react-icons/si";
 import { client } from "@/sanity/lib/client";
-import { LuArrowUpDown } from "react-icons/lu";
+// import { LuArrowUpDown } from "react-icons/lu";
 import Link from "next/link";
 import { useRouter } from "next/navigation";
 import { useCart, Product } from "@/app/cart-product/CartContext";
