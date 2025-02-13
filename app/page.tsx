@@ -52,7 +52,9 @@ export default function Home() {
   };
  
 
-
+  if(data == 0){
+    return <p>Loading...</p>;
+  }
 
   return (
     <div>
