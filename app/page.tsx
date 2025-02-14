@@ -11,7 +11,7 @@ import { client } from "@/sanity/lib/client";
 import { LuArrowUpDown } from "react-icons/lu";
 import Link from "next/link";
 import { useRouter } from "next/navigation";
-import { useCart, Product} from "@/app/cart-product/CartContext";
+import { useCart, Product } from "@/app/cart-product/CartContext";
 import SearchBar from "@/components/SearchBar";
 
 export default function Home() {
@@ -50,17 +50,21 @@ export default function Home() {
   const handleProceedToPayout = () => {
     router.push("/Payout");
   };
- 
 
-  if(data.length === 0){
-    return <p>Loading...</p>;
-  }
+
+  if (data.length === 0) {
+  return (
+    <div className="flex justify-center items-center min-h-screen">
+      <div className="w-16 h-16 border-4 border-blue-500 border-dashed rounded-full animate-spin"></div>
+    </div>
+  );
+}
 
   return (
     <div>
       <div className="w-full bg-[#F6F7F9]">
         {/* Banner Section */}
-          <div className="flex gap-[27px] justify-center">
+        <div className="flex gap-[27px] justify-center">
           <div className="w-[640px] h-[360px] bg-[#54A6FF] rounded-[10px] mt-8">
             <div className="w-[284px] h-[224px] p-6 gap-5">
               <p className="font-semibold text-[32px] text-white w-[274px]">
@@ -173,9 +177,9 @@ export default function Home() {
         {/* ✅ Search Bar Component */}
         <div className="flex justify-center mt-5">
           {data.length > 0 && (
-             <SearchBar onSearch={handleSearch} />
+            <SearchBar onSearch={handleSearch} />
           )}
-          </div>
+        </div>
 
         {/* Cars List */}
         <div className="flex flex-wrap justify-between -m-4">
